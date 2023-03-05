@@ -8,9 +8,9 @@ int main()
     int num = rand() % 100 +1;
 
     int guess;
-    int tries;
+    int tries =0;
 
-    std::cout << "*************  NUMBER GUESSING GAME  *****************\n";
+    std::cout << "*************  NUMBER GUESSING GAME  *****************\n\n";
 
     do{
         std::cout << "Guess a random Number between 1-100 : ";
